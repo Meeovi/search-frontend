@@ -1,6 +1,10 @@
 <template>
   <v-app :theme="theme">
     <v-app-bar id="topnav" density="compact">
+      <v-col>
+        <v-list-item title="About" value="about" href="/about"></v-list-item>
+      </v-col>
+      
       <v-app-bar-title><a class="logobrand" href="/">
           <v-icon start icon="fas fa-hurricane"></v-icon>Meeovi Search
         </a></v-app-bar-title>
@@ -29,9 +33,6 @@
           </v-menu>
         </v-col>
         <v-col>
-          <settingsmenu />
-        </v-col>
-        <v-col>
           <v-menu :location="location" transition="slide-y-transition">
             <template v-slot:activator="{ props }">
               <v-btn variant="flat" v-bind="props">
@@ -50,6 +51,36 @@
     <v-main>
       <v-card>
         <v-layout>
+          <v-navigation-drawer class="sidebarSection" v-model="drawer" temporary>
+            <v-list-item prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg" title="John Leider" nav>
+              <template v-slot:append>
+                <v-btn variant="text" icon="fas fa-chevron-left" @click.stop="rail = !rail"></v-btn>
+              </template>
+            </v-list-item>
+
+            <v-list density="compact" nav>
+              <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
+              <v-list-group prepend-icon="fas fa-feather-pointed" value="content manager">
+                <template v-slot:activator="{ props }">
+                  <v-list-item v-bind="props" title="Content Manager"></v-list-item>
+                </template>
+                <v-list-item prepend-icon="fas fa-feather" title="Blog" value="Blog" href="/Admin/Content/Blog">
+                </v-list-item>
+              </v-list-group>
+              <v-list-item prepend-icon="fas fa-user" title="Customers" value="Customers" href="/Admin/Customers">
+              </v-list-item>
+              <v-list-item prepend-icon="fas fa-gear" title="Settings" value="settings"
+                href="/Admin/Settings/general-settings"></v-list-item>
+            </v-list>
+
+            <v-spacer></v-spacer>
+
+              <div class="pa-2">
+                <v-btn block>
+                  Logout
+                </v-btn>
+              </div>
+          </v-navigation-drawer>
           <v-main id="sidebarNav"></v-main>
           <main id="mainSection">
             <slot />
@@ -62,13 +93,12 @@
 </template>
 
 <script>
-import settingsmenu from '../components/settings/menu.vue'
 import search from '../components/Search/search.vue'
 
   export default {
     data() {
       return {
-        components: { settingsmenu, search },
+        components: { search },
         drawer: null,
         location: 'bottom',
         items: [{

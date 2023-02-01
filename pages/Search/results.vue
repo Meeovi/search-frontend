@@ -1,29 +1,71 @@
 <template>
-    <ais-instant-search :search-client="searchClient" index-name="steam-video-games">
-        <ais-search-box />
-        <ais-hits>
-            <template v-slot:item="{ item }">
-                <h2>{{ item.name }}</h2>
-            </template>
-        </ais-hits>
-    </ais-instant-search>
+    <div>
+        <v-tabs v-model="tab" bg-color="primary">
+            <v-tab value="one">All</v-tab>
+            <v-tab value="two">News</v-tab>
+            <v-tab value="three">Images</v-tab>
+            <v-tab><a href="https://locate.meeovi.com">Maps</a></v-tab>
+            <v-tab value="four">Videos</v-tab>
+            <v-tab value="five">Shopping</v-tab>
+            <v-tab><a href="https://www.meeovi.com/books">Maps</a></v-tab>
+            <v-tab value="six">Finance</v-tab>
+        </v-tabs>
+
+        <v-card-text>
+            <v-window v-model="tab">
+                <v-window-item value="one">
+                    <search />
+                </v-window-item>
+
+                <v-window-item value="two">
+                    <news />
+                </v-window-item>
+
+                <v-window-item value="three">
+                    <images />
+                </v-window-item>
+
+                <v-window-item value="four">
+                    <videos />
+                </v-window-item>
+
+                <v-window-item value="five">
+                    <shopping />
+                </v-window-item>
+
+                <v-window-item value="six">
+                    <finance />
+                </v-window-item>
+            </v-window>
+        </v-card-text>
+    </div>
 </template>
 
 <script>
-    import {
-        instantMeiliSearch
-    } from "@meilisearch/instant-meilisearch";
-    import "instantsearch.css/themes/algolia-min.css";
-
+    import search from '../components/Search/search.vue'
+    import news from '../components/Search/news.vue'
+    import images from '../components/Search/images.vue'
+    import videos from '../components/Search/videos.vue'
+    import shopping from '../components/Search/shopping.vue'
+    import finance from '../components/Search/finance.vue'
 
     export default {
-        data() {
-            return {
-                searchClient: instantMeiliSearch(
-                    "https://integration-demos.meilisearch.com",
-                    "99d1e034ed32eb569f9edc27962cccf90b736e4c5a70f7f5e76b9fab54d6a185"
-                ),
-            };
+        components: {
+            search,
+            news,
+            images,
+            videos,
+            shopping,
+            finance
         },
-    };
+        data: () => ({
+            tab: null,
+        }),
+    }
+</script>
+
+<script setup>
+    useHead({
+        title: 'Meeovi Search',
+    })
 </script>

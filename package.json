@@ -15,8 +15,8 @@
    "private": true,
    "scripts": {
       "alternate-commit": "git add . && git commit -m \"ready for update\"",
-      "alternate-update": "git pull \"https://github.com/Meeovi/AlternateCMS-Starter-Template\"",
-      "build": "nuxt build && mesh build",
+      "alternate-update": "git pull \"https://github.com/Meeovi/search-frontend\"",
+      "build": "nuxt build",
       "dev": "nuxt dev --port 3014",
       "ts-node": "ts-node -r tsconfig-paths/register --compiler-options '{\"module\":\"CommonJS\"}'",
       "generate": "nuxt generate",
