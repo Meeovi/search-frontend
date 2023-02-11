@@ -1,17 +1,9 @@
 <template>
   <v-app :theme="theme">
     <v-app-bar id="topnav" density="compact">
-      <v-col>
-        <v-list-item title="About" value="about" href="/about"></v-list-item>
-      </v-col>
-      
       <v-app-bar-title><a class="logobrand" href="/">
-          <v-icon start icon="fas fa-hurricane"></v-icon>Meeovi Search
+          <v-icon color="info" start icon="fas fa-binoculars"></v-icon>Meeovi Search
         </a></v-app-bar-title>
-
-      <v-text-field density="compact" variant="solo" label="Search" append-inner-icon="fas fa-search" single-line
-        hide-details @click:append-inner="onClick"></v-text-field>
-      <v-spacer></v-spacer>
 
       <div class="d-flex align-center flex-column flex-sm-row fill-height">
         <v-col>

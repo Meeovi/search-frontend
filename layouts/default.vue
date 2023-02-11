@@ -2,7 +2,7 @@
   <v-app :theme="theme">
     <v-app-bar id="topnav" density="compact">
       <v-app-bar-title><a class="logobrand" href="/">
-          <v-icon start icon="fas fa-hurricane"></v-icon>Meeovi Search
+          <v-icon start icon="fas fa-binoculars"></v-icon>Meeovi Search
         </a></v-app-bar-title>
 
       <v-text-field density="compact" variant="solo" label="Search" append-inner-icon="fas fa-search" single-line
@@ -29,7 +29,7 @@
           </v-menu>
         </v-col>
         <v-col>
-          <settingsmenu />
+          <ecosystemmenu />
         </v-col>
         <v-col>
           <v-menu :location="location" transition="slide-y-transition">
@@ -62,13 +62,13 @@
 </template>
 
 <script>
-import settingsmenu from '../components/settings/menu.vue'
+import ecosystemmenu from '../components/ecosystemmenu.vue'
 import search from '../components/Search/search.vue'
 
   export default {
     data() {
       return {
-        components: { settingsmenu, search },
+        components: { ecosystemmenu, search },
         drawer: null,
         location: 'bottom',
         items: [{

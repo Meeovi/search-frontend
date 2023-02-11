@@ -4,23 +4,23 @@
             <v-btn variant="text" class="mx-2" rounded="xl" href="/">
                 Home
             </v-btn>
-            <v-btn variant="text" class="mx-2" rounded="xl" href="/">
-                About Us
+            <v-btn variant="text" class="mx-2" rounded="xl" href="https://www.meeovi.com/about">
+                About Meeovi
             </v-btn>
-            <v-btn variant="text" class="mx-2" rounded="xl" href="/">
-                Team
+            <v-btn variant="text" class="mx-2" rounded="xl" href="/howsearchworks">
+                How Search Works
             </v-btn>
-            <v-btn variant="text" class="mx-2" rounded="xl" href="/">
-                Services
+            <v-btn variant="text" class="mx-2" rounded="xl" href="https://www.meeovi.com/advertising/">
+                Advertising
             </v-btn>
-            <v-btn variant="text" class="mx-2" rounded="xl" href="/">
-                Blog
+            <v-btn variant="text" class="mx-2" rounded="xl" href="https://www.meeovi.com/business/">
+                Meeovi Business
             </v-btn>
-            <v-btn variant="text" class="mx-2" rounded="xl" href="/">
-                Contact Us
+            <v-btn variant="text" class="mx-2" rounded="xl" href="https://www.pixanomy.com/about">
+                About Pixanomy
             </v-btn>
             <v-col class="text-center mt-4" cols="12">
-                {{ new Date().getFullYear() }} — <strong><a href="https://www.alternatecms.com">AlternateFramework</a></strong>
+                {{ new Date().getFullYear() }} — <strong><a href="https://www.meeovi.com">The Meeovi Company</a></strong>
             </v-col>
         </v-row>
     </v-footer>

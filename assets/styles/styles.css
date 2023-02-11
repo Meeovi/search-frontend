@@ -24,7 +24,29 @@ body {
     width: 100%
 }
 
+.resultsTabs a {
+    color: white;
+}
+
+.resultsTabs a:hover {
+    color: white;
+}
 /******************* Main Section CSS *********/
+
+#frontSearch {
+    padding: 15%;
+}
+
+.frontSearchTitle {
+    text-align: center;
+}
+
+.frontPage {
+    background-image: url(../images/background10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
 #mainSection {
     top: 0px !important;
