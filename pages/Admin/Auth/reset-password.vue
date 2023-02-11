@@ -28,7 +28,7 @@
 </template>
 
 <script>
-    /* eslint-disable camelcase */
+    /* eslint-disable camelcase 
     import gql from "graphql-tag";
     import findManyUsers from "~/graphql/query/findManyUsers";
     // import  tax from '~/graphql/query/findManyTax'
@@ -38,15 +38,15 @@
     createOneUsers(data: {password: $password}) {
         password
   }
-}`;
+}`;*/
 
     export default {
         data() {
             return {
-                password: " ",
+               // password: " ",
             }
         },
-        methods: {
+     /*   methods: {
             async addUser() {
                 const password = this.password;
                 await this.$apollo.mutate({

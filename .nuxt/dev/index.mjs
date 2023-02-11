@@ -1,61 +1,61 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'http';
 import { tmpdir } from 'os';
 import { join as join$1 } from 'path';
 import { mkdirSync } from 'fs';
 import { parentPort, threadId } from 'worker_threads';
-import { provider, isWindows } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/std-env/dist/index.mjs';
-import { eventHandler, setHeaders, sendRedirect, defineEventHandler, handleCacheHeaders, createEvent, getRequestHeader, getRequestHeaders, setResponseHeader, createError, getQuery, readBody, getCookie, createApp, createRouter as createRouter$1, lazyEventHandler, toNodeListener } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/nitropack/node_modules/h3/dist/index.mjs';
-import { useOneTap } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/vue3-google-signin/dist/index.es.js';
-import { createRenderer } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import devalue from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/vue/server-renderer/index.mjs';
-import { parseURL, withQuery, joinURL, withLeadingSlash, withoutTrailingSlash, isRelative } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/ufo/dist/index.mjs';
-import destr from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/destr/dist/index.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/scule/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/ofetch/dist/node.mjs';
-import { createCall, createFetch } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/hookable/dist/index.mjs';
-import { hash } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/ohash/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unstorage/dist/drivers/fs.mjs';
-import defu from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/defu/dist/defu.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/radix3/dist/index.mjs';
-import cache from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/memory-cache/index.js';
+import { provider, isWindows } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/std-env/dist/index.mjs';
+import { eventHandler, setHeaders, sendRedirect, defineEventHandler, handleCacheHeaders, createEvent, getRequestHeader, getRequestHeaders, setResponseHeader, createError, getQuery, readBody, getCookie, createApp, createRouter as createRouter$1, lazyEventHandler, toNodeListener } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/nitropack/node_modules/h3/dist/index.mjs';
+import { useOneTap } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/vue3-google-signin/dist/index.es.js';
+import { createRenderer } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import devalue from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/vue/server-renderer/index.mjs';
+import { parseURL, withQuery, joinURL, withLeadingSlash, withoutTrailingSlash, isRelative } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/ufo/dist/index.mjs';
+import destr from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/destr/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/scule/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/ofetch/dist/node.mjs';
+import { createCall, createFetch } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/hookable/dist/index.mjs';
+import { hash } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/ohash/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unstorage/dist/drivers/fs.mjs';
+import defu from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/defu/dist/defu.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/radix3/dist/index.mjs';
+import cache from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/memory-cache/index.js';
 import { performance } from 'perf_hooks';
-import { FilterXSS } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/xss/lib/index.js';
-import { defineCorsEventHandler } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/@nozomuikuta/h3-cors/dist/index.mjs';
-import { MeiliSearch } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/meilisearch/dist/bundles/meilisearch.cjs.js';
-import { extname, join } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/pathe/dist/index.mjs';
-import { unified } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unified/index.js';
-import { toString } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/mdast-util-to-string/index.js';
-import { preprocess } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/micromark/dev/lib/preprocess.js';
-import { postprocess } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/micromark/dev/lib/postprocess.js';
-import { stringifyPosition } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/micromark-util-character/dev/index.js';
-import { push, splice } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/micromark-util-chunked/dev/index.js';
-import { resolveAll } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/micromark-util-resolve-all/index.js';
-import remarkEmoji from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-emoji/index.js';
-import rehypeSlug from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/rehype-slug/index.js';
-import remarkSqueezeParagraphs from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-squeeze-paragraphs/index.js';
-import rehypeExternalLinks from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/rehype-external-links/index.js';
-import remarkGfm from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-gfm/index.js';
-import rehypeSortAttributeValues from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/rehype-raw/index.js';
-import remarkMDC, { parseFrontMatter } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-mdc/dist/index.mjs';
-import remarkParse from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-parse/index.js';
-import remark2rehype from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/remark-rehype/index.js';
-import { all } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/mdast-util-to-hast/index.js';
-import { detab } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/detab/index.js';
-import { u } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unist-builder/index.js';
-import { encode } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/mdurl/index.js';
-import slugify from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/slugify/slugify.js';
-import { position } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unist-util-position/index.js';
-import htmlTags from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/html-tags/index.js';
-import { visit } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unist-util-visit/index.js';
-import { BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/shiki-es/dist/shiki.node.mjs';
-import consola from 'file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/unenv/runtime/npm/consola.mjs';
+import { FilterXSS } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/xss/lib/index.js';
+import { defineCorsEventHandler } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/@nozomuikuta/h3-cors/dist/index.mjs';
+import { MeiliSearch } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/meilisearch/dist/bundles/meilisearch.cjs.js';
+import { extname, join } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/pathe/dist/index.mjs';
+import { unified } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unified/index.js';
+import { toString } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/mdast-util-to-string/index.js';
+import { preprocess } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/micromark/dev/lib/preprocess.js';
+import { postprocess } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/micromark/dev/lib/postprocess.js';
+import { stringifyPosition } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/micromark-util-character/dev/index.js';
+import { push, splice } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/micromark-util-chunked/dev/index.js';
+import { resolveAll } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/micromark-util-resolve-all/index.js';
+import remarkEmoji from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-emoji/index.js';
+import rehypeSlug from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/rehype-slug/index.js';
+import remarkSqueezeParagraphs from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-squeeze-paragraphs/index.js';
+import rehypeExternalLinks from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/rehype-external-links/index.js';
+import remarkGfm from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-gfm/index.js';
+import rehypeSortAttributeValues from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/rehype-raw/index.js';
+import remarkMDC, { parseFrontMatter } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-mdc/dist/index.mjs';
+import remarkParse from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-parse/index.js';
+import remark2rehype from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/remark-rehype/index.js';
+import { all } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/mdast-util-to-hast/index.js';
+import { detab } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/detab/index.js';
+import { u } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unist-builder/index.js';
+import { encode } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/mdurl/index.js';
+import slugify from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/slugify/slugify.js';
+import { position } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unist-util-position/index.js';
+import htmlTags from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/html-tags/index.js';
+import { visit } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unist-util-visit/index.js';
+import { BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/shiki-es/dist/shiki.node.mjs';
+import consola from 'file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/unenv/runtime/npm/consola.mjs';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routeRules":{"/__nuxt_error":{"cache":false},"/**":{"headers":{"Cross-Origin-Resource-Policy":"same-origin","Cross-Origin-Opener-Policy":"same-origin","Cross-Origin-Embedder-Policy":"require-corp","Content-Security-Policy":"base-uri 'self'; font-src 'self' https: data:; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; object-src 'none'; script-src-attr 'none'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests","Origin-Agent-Cluster":"?1","Referrer-Policy":"no-referrer","Strict-Transport-Security":"max-age=15552000; includeSubDomains","X-Content-Type-Options":"nosniff","X-DNS-Prefetch-Control":"off","X-Download-Options":"noopen","X-Frame-Options":"SAMEORIGIN","X-Permitted-Cross-Domain-Policies":"none","X-XSS-Protection":"0"}}},"envPrefix":"NUXT_"},"public":{"content":{"locales":[],"experimental":{"stripQueryParameters":false,"clientDB":false},"api":{"baseURL":"/api/_content"},"navigation":{"fields":[]},"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":false,"wsUrl":"ws://localhost:4000/","documentDriven":false,"host":"","trailingSlash":false,"anchorLinks":{"depth":4,"exclude":[1]}},"googleSignIn":{"clientId":"CLIENT ID OBTAINED FROM GOOGLE API CONSOLE"},"meilisearchClient":{"hostUrl":"http://my-meilisearch-server.domain.com","searchApiKey":"<your_public_key>","serverSideUsage":true,"instantSearch":{"theme":"algolia"},"clientOptions":{"placeholderSearch":true,"paginationTotalHits":50,"finitePagination":true,"keepZeroFacets":false}}},"content":{"cacheVersion":2,"cacheIntegrity":"kc4UzpZUjI","transformers":[],"base":"","api":{"baseURL":"/api/_content"},"watch":{"ws":{"port":{"port":4000,"portRange":[4000,4040]},"hostname":"localhost","showURL":false}},"sources":{},"ignores":["\\.","-"],"locales":[],"highlight":false,"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"anchorLinks":{"depth":4,"exclude":[1]},"remarkPlugins":{},"rehypePlugins":{}},"yaml":{},"csv":{"delimeter":",","json":true},"navigation":{"fields":[]},"documentDriven":false,"experimental":{"clientDB":false,"stripQueryParameters":false}},"security":{"headers":{"crossOriginResourcePolicy":{"value":"same-origin","route":"/**"},"crossOriginOpenerPolicy":{"value":"same-origin","route":"/**"},"crossOriginEmbedderPolicy":{"value":"require-corp","route":"/**"},"contentSecurityPolicy":{"value":{"base-uri":["'self'"],"font-src":["'self'","https:","data:"],"form-action":["'self'"],"frame-ancestors":["'self'"],"img-src":["'self'","data:"],"object-src":["'none'"],"script-src-attr":["'none'"],"style-src":["'self'","https:","'unsafe-inline'"],"upgrade-insecure-requests":true},"route":"/**"},"originAgentCluster":{"value":"?1","route":"/**"},"referrerPolicy":{"value":"no-referrer","route":"/**"},"strictTransportSecurity":{"value":{"maxAge":15552000,"includeSubdomains":true},"route":"/**"},"xContentTypeOptions":{"value":"nosniff","route":"/**"},"xDNSPrefetchControl":{"value":"off","route":"/**"},"xDownloadOptions":{"value":"noopen","route":"/**"},"xFrameOptions":{"value":"SAMEORIGIN","route":"/**"},"xPermittedCrossDomainPolicies":{"value":"none","route":"/**"},"xXSSProtection":{"value":"0","route":"/**"}},"requestSizeLimiter":{"value":{"maxRequestSizeInBytes":2000000,"maxUploadFileRequestInBytes":8000000},"route":"","throwError":true},"rateLimiter":{"value":{"tokensPerInterval":150,"interval":"hour","fireImmediately":true},"route":"","throwError":true},"xssValidator":{"value":{},"route":"","throwError":true},"corsHandler":{"value":{"origin":"*","methods":["GET","HEAD","PUT","PATCH","POST","DELETE"],"preflight":{"statusCode":204}},"route":"","throwError":true},"allowedMethodsRestricter":{"value":"*","route":"","throwError":true},"hidePoweredBy":true,"basicAuth":false,"enabled":true},"serverMeilisearchClient":{"hostUrl":"http://my-meilisearch-server.domain.com","searchApiKey":"<your_public_key>","adminApiKey":"<your_secret_key>","serverSideUsage":true,"instantSearch":{"theme":"algolia"},"clientOptions":{"placeholderSearch":true,"paginationTotalHits":50,"finitePagination":true,"keepZeroFacets":false}}};
 const ENV_PREFIX = "NITRO_";
@@ -114,7 +114,7 @@ const timingMiddleware = eventHandler((event) => {
   }.bind(event.res);
 });
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/sehilton/Documents/github/Portfolio/search-frontend/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/Basti/OneDrive/Documents/My Websites/Handmade Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/server/assets"}];
 
 const assets = createStorage();
 
@@ -128,12 +128,12 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend\\content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend\\.nuxt\\content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\sehilton\\Documents\\github\\Portfolio\\search-frontend\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend\\content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend\\.nuxt\\content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Basti\\OneDrive\\Documents\\My Websites\\Handmade Sites\\Javascript-Projects\\Nuxt-Projects\\Applications\\AlternateCMS-Framework\\TheMeeoviCompany-Sites\\search-frontend\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -406,14 +406,14 @@ function cloneWithProxy(obj, overrides) {
 }
 const cachedEventHandler = defineCachedEventHandler;
 
-const _zTMhLDtoYD = (function(nitro) {
+const _urX0UOA3zy = (function(nitro) {
   nitro.hooks.hook("render:response", (response) => {
     delete response.headers["X-Powered-By"];
   });
 });
 
 const plugins = [
-  _zTMhLDtoYD
+  _urX0UOA3zy
 ];
 
 function hasReqHeader(event, name, includes) {
@@ -478,7 +478,7 @@ const errorHandler = (async function errorhandler(error, event) {
     redirect: "manual"
   }).catch(() => null) : null;
   if (!res) {
-    const { template } = await import('file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/@nuxt/ui-templates/dist/templates/error-dev.mjs') ;
+    const { template } = await import('file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/@nuxt/ui-templates/dist/templates/error-dev.mjs') ;
     {
       errorObject.description = errorObject.message;
     }
@@ -500,7 +500,7 @@ const errorHandler = (async function errorhandler(error, event) {
 
 const securityConfig$3 = useRuntimeConfig().security;
 const FILE_UPLOAD_HEADER = "multipart/form-data";
-const _uuOXv5 = defineEventHandler(async (event) => {
+const _iLovzV = defineEventHandler(async (event) => {
   if (["POST", "PUT", "DELETE"].includes(event.node.req.method)) {
     const contentLengthValue = getRequestHeader(event, "content-length");
     const contentTypeValue = getRequestHeader(event, "content-type");
@@ -785,7 +785,7 @@ class RateLimiter {
 }
 
 const securityConfig$2 = useRuntimeConfig().security;
-const _j8pNnp = defineEventHandler(async (event) => {
+const _vh2ctT = defineEventHandler(async (event) => {
   const ip = getRequestHeader(event, "x-forwarded-for");
   if (!cache.get(ip)) {
     const cachedLimiter = new RateLimiter(securityConfig$2.rateLimiter.value);
@@ -807,7 +807,7 @@ const _j8pNnp = defineEventHandler(async (event) => {
 
 const securityConfig$1 = useRuntimeConfig().security;
 const xssValidator = new FilterXSS(securityConfig$1.xssValidator.value);
-const _7vd9Nt = defineEventHandler(async (event) => {
+const _zX9KPo = defineEventHandler(async (event) => {
   if (["POST", "GET"].includes(event.node.req.method)) {
     const valueToFilter = event.node.req.method === "GET" ? getQuery(event) : readBody(event);
     const stringifiedValue = JSON.stringify(valueToFilter);
@@ -823,11 +823,11 @@ const _7vd9Nt = defineEventHandler(async (event) => {
 });
 
 const securityConfig = useRuntimeConfig().security;
-const _5Tf7lC = defineEventHandler(defineCorsEventHandler(securityConfig.corsHandler.value));
+const _TD3Xn8 = defineEventHandler(defineCorsEventHandler(securityConfig.corsHandler.value));
 
 const useConfig = () => useRuntimeConfig().serverMeilisearchClient;
 
-const _WxK20r = defineEventHandler(async (event) => {
+const _8Cn4d4 = defineEventHandler(async (event) => {
   const { hostUrl, adminApiKey } = useConfig();
   if (!event.context.serverMeilisearchClient) {
     event.context.serverMeilisearchClient = new MeiliSearch({
@@ -3339,7 +3339,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }
@@ -3667,7 +3667,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _yDraFL = defineEventHandler(async (event) => {
+const _6GNow6 = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (query.first) {
     const content = await serverQueryContent(event, query).findOne();
@@ -3698,7 +3698,7 @@ const _yDraFL = defineEventHandler(async (event) => {
   return contents;
 });
 
-const _0xUqpT = defineEventHandler(async (event) => {
+const _Yh8ush = defineEventHandler(async (event) => {
   const { content } = useRuntimeConfig();
   const now = Date.now();
   const contents = await serverQueryContent(event).find();
@@ -3800,7 +3800,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _7smpqD = defineEventHandler(async (event) => {
+const _faTS07 = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -3837,27 +3837,27 @@ const _7smpqD = defineEventHandler(async (event) => {
   return createNav(contents, configs);
 });
 
-const _lazy_hJqEQk = () => Promise.resolve().then(function () { return searchExample$1; });
-const _lazy_1B26hl = () => Promise.resolve().then(function () { return google; });
-const _lazy_WqQcPR = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_lXt44X = () => Promise.resolve().then(function () { return searchExample$1; });
+const _lazy_pR0LjW = () => Promise.resolve().then(function () { return google; });
+const _lazy_JYDuPA = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/api/searchExample', handler: _lazy_hJqEQk, lazy: true, middleware: false, method: undefined },
-  { route: '/api/google', handler: _lazy_1B26hl, lazy: true, middleware: false, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_WqQcPR, lazy: true, middleware: false, method: undefined },
-  { route: '', handler: _uuOXv5, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _j8pNnp, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _7vd9Nt, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _5Tf7lC, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _WxK20r, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _yDraFL, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _yDraFL, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _yDraFL, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.json', handler: _0xUqpT, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _7smpqD, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _7smpqD, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _7smpqD, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_WqQcPR, lazy: true, middleware: false, method: undefined }
+  { route: '/api/searchExample', handler: _lazy_lXt44X, lazy: true, middleware: false, method: undefined },
+  { route: '/api/google', handler: _lazy_pR0LjW, lazy: true, middleware: false, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_JYDuPA, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _iLovzV, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _vh2ctT, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _zX9KPo, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _TD3Xn8, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _8Cn4d4, lazy: false, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _6GNow6, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _6GNow6, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _6GNow6, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.json', handler: _Yh8ush, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _faTS07, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _faTS07, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _faTS07, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_JYDuPA, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -3977,9 +3977,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('file://C:/Users/sehilton/Documents/github/Portfolio/search-frontend/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file://C:/Users/Basti/OneDrive/Documents/My%20Websites/Handmade%20Sites/Javascript-Projects/Nuxt-Projects/Applications/AlternateCMS-Framework/TheMeeoviCompany-Sites/search-frontend/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
